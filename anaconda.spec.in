@@ -520,6 +520,8 @@ rm -rf \
 %{_prefix}/libexec/anaconda/dd_*
 
 %changelog
+* Tue Apr 14 2026 github-actions <github-actions@github.com> - 44.33-1
+
 * Tue Apr 07 2026 github-actions <github-actions@github.com> - 44.32-1
 
 * Tue Mar 31 2026 github-actions <github-actions@github.com> - 44.31-1
