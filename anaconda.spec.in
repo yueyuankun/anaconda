@@ -520,6 +520,15 @@ rm -rf \
 %{_prefix}/libexec/anaconda/dd_*
 
 %changelog
+* Tue Apr 21 2026 github-actions <github-actions@github.com> - 44.34-1
+- anaconda.conf: Add systemd.tpm2_wait to preserved_arguments (johannes.goede)
+- partitioning: manual: skip requests for devices removed from device tree in
+  setup_kickstart (k.koukiou)
+  Resolves: rhbz#2457287
+- conf: extend runtime install-session flags with pause_at_summary
+  (adamkankovsky)
+- conf: Add [Runtime] for install session flags (runtime file only) (k.koukiou)
+
 * Tue Apr 14 2026 github-actions <github-actions@github.com> - 44.33-1
 
 * Tue Apr 07 2026 github-actions <github-actions@github.com> - 44.32-1
